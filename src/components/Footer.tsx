@@ -45,9 +45,9 @@ export const Footer = () => {
 							Connect Us
 						</Title>
 						<Stack gap={4}>
-							<Text c="gray.6">support@staycation.id</Text>
+							<Text c="gray.6">support@nyalse.id</Text>
 							<Text c="gray.6">021 - 2208 - 1996</Text>
-							<Text c="gray.6">Staycation, Kemang, Jakarta</Text>
+							<Text c="gray.6">Nyalse, Kemang, Jakarta</Text>
 						</Stack>
 					</Grid.Col>
 				</Grid>
