@@ -2,6 +2,7 @@ import {AppLayout} from "../layouts/AppLayout.tsx";
 import {Hero} from "../components/Hero.tsx";
 import {PropertyList} from "../components/PropertyList.tsx";
 import {useRef} from "react";
+import Testimonial from "../components/Testimonial.tsx";
 
 const mostPickedData = [
 	{
@@ -114,6 +115,8 @@ export const Home = () => {
 				mostPickedData={mostPickedData}
 				propertyCategoriesData={propertyCategoriesData}
 			/>
+			
+			<Testimonial/>
 		</AppLayout>
 	);
 };

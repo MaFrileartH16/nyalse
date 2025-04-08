@@ -44,7 +44,7 @@ export const theme = createTheme({
 		xl: '24px',
 		xxl: '32px',
 	},
-	defaultRadius: 'md',
+	defaultRadius: 'lg',
 	fontSizes: {
 		xs: rem(12),
 		sm: rem(14),
@@ -182,7 +182,7 @@ export const theme = createTheme({
 		}),
 		Image: Image.extend({
 			defaultProps: {
-				radius: 'md',
+				radius: 'lg',
 			},
 		}),
 	},
